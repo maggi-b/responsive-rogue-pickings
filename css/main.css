@@ -170,3 +170,65 @@ footer span {
 	color: #45610E;
 	font-size: 1.14rem;
 }
+
+/****** TABLET STYLES ******/
+@media all and (min-width: 768px) {
+
+	/******** BOTTOM SECTION ********/
+	.bottom-section .content-wrapper {
+		border-top: 5px solid #EEE;
+		border-bottom: 5px solid #EEE;
+		justify-content: space-evenly;
+	}
+
+	.section-one {
+		/*width: 29%;*/
+		width: 26%;
+		padding: 0;
+	}
+
+	.section-two {
+		/*width: 42%;*/
+		width: 40%;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		border-top: none;
+		border-bottom: none;
+		padding: 0 30px;
+	}
+
+	.section-three {
+		/*width: 29%;*/
+		width: 26%;
+	}
+}
+
+/****** DESKTOP STYLES ******/
+@media all and (min-width: 1200px) {
+	body {
+		font-size: 1em;
+	}
+
+	/******** HEADER STYLES ********/
+	header .content-wrapper {
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0;
+	}
+
+	header h1 {
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+		width: 30%;
+	}
+
+	header nav {
+		width: 21%
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+}
